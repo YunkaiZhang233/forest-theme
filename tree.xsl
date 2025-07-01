@@ -12,6 +12,8 @@
         <meta name="viewport" content="width=device-width" />
         <link rel="stylesheet" href="{/f:tree/@base-url}style.css" />
         <link rel="stylesheet" href="{/f:tree/@base-url}katex.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700,700italic,400italic" rel="stylesheet" type="text/css" />
+        <link href="{/f:tree/@base-url}gabc.css"  rel="stylesheet" type="text/css" />    
         <script type="text/javascript">
           <xsl:if test="/f:tree/f:frontmatter/f:source-path">
             <xsl:text>window.sourcePath = '</xsl:text>
@@ -50,6 +52,9 @@
             </nav>
           </xsl:if>
         </div>
+        <script type="text/javascript" src="{/f:tree/@base-url}/exsurge.min.js"></script>
+        <script type="text/javascript" src="{/f:tree/@base-url}/gabc.js">
+        </script>
       </body>
     </html>
   </xsl:template>
