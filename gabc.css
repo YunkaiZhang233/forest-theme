@@ -4,6 +4,9 @@ grego-chant[inline] {
   position: relative;
   bottom: -9px;
 }
+text.annotation {
+  transform:translateY(6px)
+}
 grego-chant {
   width:100%;display:block;
 }
